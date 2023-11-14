@@ -1,0 +1,31 @@
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    height: 150px;
+    width: 300px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 31px;
+}
+
+.list{
+    list-style: none;
+    padding: 10px;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    padding-left: 0px;
+}

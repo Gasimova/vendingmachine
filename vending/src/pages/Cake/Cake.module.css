@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper img {
+    min-width: 500px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box p {
+    margin-bottom: 40px;
+    font-size: 23px;
+    font-weight: bolder;
+    background: #00000017;
+    padding: 40px 140px;
+    border-radius: 17px;
+}
+
+@keyframes loading {
+    from {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    25% {
+        transform: scale(0.9);
+    }`enter code here`
+    to {
+        transform: scale(1);
+    }
+}
+
+.rotate {
+    animation: loading 3s linear infinite;
+
+}
